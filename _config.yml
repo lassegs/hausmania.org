@@ -1,0 +1,34 @@
+---
+title: Hausmania
+timezone: Europe/Amsterdam
+collections:
+  grupper:
+    title: Grupper
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: grupper
+  values:
+    img: placeholder.jpg
+    placement: bottom
+email: administrasjon@hausmania.org
+description: 'Write an aweausmsome description for your new site here. You can edit
+  this line in _config.yml. It will appear in your document head meta (for Google
+  search results) and in your feed.xml site description.
+
+'
+baseurl: 
+url: 
+markdown: kramdown
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
